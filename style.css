@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+
+body{
+    background: black;
+}
+body{
+    display: block;
+    background: url('./vladimir-palyanov-tNsbef7rlLI-unsplash.jpg');
+    background-position:auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header{
+    color: rgb(231, 219, 219);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hamburger{
+    font-size: 2rem;
+    transform: translateX(-94vw);
+    margin: 20px 0px 0px 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#hamburger:hover{
+    cursor: pointer;
+     color: coral;
+}
+#search{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#search:hover{
+    color: coral;
+}
+
+i{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px ;
+}
+
+ul li{
+    margin: 10px;
+    font-size: 1.5rem;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.a li:hover{
+    animation-name: foad;
+    animation-duration: 4s;
+    cursor: pointer;
+    color: crimson;
+    
+}
+
+@keyframes foad{
+    50%{
+        text-decoration: coral underline;
+        color: coral;
+    }
+    75%{
+        text-decoration: #d3c725 underline;
+        color:#d3c725 ;
+    }
+    100%{
+        text-decoration: rgb(221, 24, 10) underline;
+        color: crimson;
+    }
+}
+
+
+.style{
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateX(-1150px);
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.style:hover{
+    color: coral;
+}
+
+article{
+    display: flex;
+    justify-content:space-around;
+}
+
+.chapi{
+    margin-top: 300px;
+    margin-left: 100px;
+    font-size: 2rem;
+    color: rgb(240, 215, 215);
+}
+
+h1{
+    margin-bottom: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
+h1:hover{
+    text-decoration: 5px rgba(236, 115, 71, 0.658) underline;
+    cursor: pointer;
+}
+
+summary{
+    font-size: 1.5rem;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+summary:hover{
+    color: coral;
+    cursor: pointer;
+}
+
+.zir{
+    font-size: 1rem;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+    display: inline-block;
+    opacity: .5;
+}
+span{
+    color: rgba(255, 127, 80, 0.493);
+}
+
+
+
+#aval:hover{
+    font-size: 1.5rem;
+    background: rgba(35, 35, 36, 0.425);
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#dovom:hover{
+    font-size: 1.5rem;
+    background: rgba(35, 35, 36, 0.425);
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.rasti{
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 1rem;
+    color: rgb(240, 215, 215);
+}
+
+h2{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    margin: 20px;
+    font-size: 3.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2:hover{
+    color: coral;
+}
+p{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    opacity: .5;
+    line-height: 25px;
+    width: 400px;
+}
+
+p:hover{
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+}
+
+.paeen{
+    font-size: 1rem;
+    color: rgb(248, 210, 210);
+}
+
+.paeen:hover{
+    color: rgba(220, 20, 60, 0.705);
+    cursor: pointer;
+}
+
+.sum{
+    color: rgb(245, 209, 209);
+    margin: 330px 0px 0px 100px ;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+h4:hover{
+    color: coral;
+    cursor: pointer;
+}
+.p{
+    margin: 5px;
+    text-indent: 10px;
+    width: 350px;
+}
+
+
+.news{
+    font-size: 1.5rem;
+    margin: 330px 0px 0px 100px ;
+}
+
+h3{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+h3:hover{
+    cursor: pointer;
+    color: coral;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.c{
+    color: white;
+    margin: 330px 0px 0px 100px ;
+}
+
+.about-us{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.about-us:hover{
+    color: coral;
+    cursor: pointer;
+}
+
+
+.pi{
+    margin-top: 20px;
+    line-height: 30px;
+    text-indent: 10px;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.img{
+    display: inline-block;
+    background: url('./mohammad-metri-U1ytD7WJvy0-unsplash.jpg');
+    background-position: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20.83vw;
+    height: 40.85vh;
+    margin-left: 15vw;
+    margin-top: 8vh;
+    border-radius: 50%;
+    opacity: .5;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.img:hover{
+    opacity: 1;
+}
